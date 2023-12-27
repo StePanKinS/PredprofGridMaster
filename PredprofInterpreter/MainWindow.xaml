@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PredprofInterpreter"
         mc:Ignorable="d"
-        Title="MainWindow" 
+        Title="Interpreter" 
         Height="500" 
         Width="800"
         MinHeight="472"
-        MinWidth="770">
+        MinWidth="770"
+        Icon="Image.png">
     <Window.Resources>
         <Style TargetType="Control" x:Key="focusedStyle" >
             <Setter Property="BorderBrush" Value="Transparent"/>
