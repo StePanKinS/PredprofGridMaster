@@ -117,7 +117,7 @@
         {
             if (depth > maxDepth)
             {
-                throw new MaxDepthReachedexception(getLine(pos));
+                throw new MaxDepthReached(getLine(pos));
             }
 
             while (true)
@@ -482,8 +482,7 @@
 
         private int getInt(string str, int position)
         {
-            int n;
-            if (!int.TryParse(str, out n))
+            if (!int.TryParse(str, out int n))
             {
                 try
                 {

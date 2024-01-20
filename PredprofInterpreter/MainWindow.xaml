@@ -46,8 +46,10 @@
                     Click="Menu_FileOpen"
                     />
                 <MenuItem 
+                    Name="menuSave"
                     Header="Save" 
                     Click="Menu_FileSave"
+                    IsEnabled="False"
                     />
                 <MenuItem 
                     Header="Save as" 
@@ -55,9 +57,28 @@
                     />
                 <Separator />
                 <MenuItem
+                    Header="Manage DB"
+                    Click="ManageDB_Click"
+                    />
+                <MenuItem
                     Header="Exit" 
                     />
             </MenuItem>
+            <!--<MenuItem Header="DataBase">
+                --><!--<MenuItem
+                    Header="Save from editor"
+                    Click="DBEditorSave_Click"
+                    />--><!--
+                <MenuItem
+                    Header="Save from file"
+                    />
+                <MenuItem 
+                    Header="Load to editor"
+                    />
+                <MenuItem
+                    Header="Load to file"
+                    />
+            </MenuItem>-->
         </Menu>
 
         <Grid

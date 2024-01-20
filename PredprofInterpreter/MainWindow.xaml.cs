@@ -1,5 +1,6 @@
 ﻿using GridMasterPredprof;
 using Microsoft.Win32;
+using MySql.Data.MySqlClient;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
@@ -27,7 +28,33 @@ namespace PredprofInterpreter
             defaultBrush = textEditor.SelectionBrush;
         }
 
-        private string? openedFile = null;
+        internal string TextEditorText 
+        {
+            get => textEditor.Text;
+            set => textEditor.Text = value;
+        }
+
+        private string? _openedFile = null;
+        internal string? OpenedFile
+        {
+            get => _openedFile;
+            set
+            {
+                if(value == null)
+                {
+                    Title = "Interpreter";
+                    menuSave.IsEnabled = false;
+                }
+                else
+                {
+                    Title = "Intterpreter - " + value;
+                    menuSave.IsEnabled = true;
+                }
+
+                _openedFile = value;
+            }
+        }
+
         private PlayerBorder playerBorder = new PlayerBorder();
         private double speed = 15;
         private (int x, int y)[] positions = [(0, 0)];
@@ -36,37 +63,38 @@ namespace PredprofInterpreter
 
         private void Menu_FileOpen(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog ofd = new OpenFileDialog();
+            OpenFileDialog ofd = new();
+            ofd.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+
             if (ofd.ShowDialog() == true)
             {
-                using (StreamReader fs = new StreamReader(ofd.FileName))
+                using (StreamReader fs = new(ofd.FileName))
                 {
                     textEditor.Text = fs.ReadToEnd();
                 }
-                openedFile = ofd.FileName;
+                OpenedFile = ofd.FileName;
             }
         }
 
         private void Menu_FileSaveAs(object sender, RoutedEventArgs e)
         {
-            SaveFileDialog sfd = new SaveFileDialog();
+            SaveFileDialog sfd = new();
+            sfd.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+
             if (sfd.ShowDialog() == true)
             {
-                using (StreamWriter sw = new StreamWriter(sfd.FileName))
-                {
-                    sw.Write(textEditor.Text);
-                }
+                using StreamWriter sw = new(sfd.FileName);
+                sw.Write(textEditor.Text);
+                OpenedFile = sfd.FileName;
             }
         }
 
         private void Menu_FileSave(object sender, RoutedEventArgs e)
         {
-            if (openedFile != null)
+            if (OpenedFile != null)
             {
-                using (StreamWriter sw = new StreamWriter(openedFile))
-                {
-                    sw.Write(textEditor.Text);
-                }
+                using StreamWriter sw = new(OpenedFile);
+                sw.Write(textEditor.Text);
             }
         }
 
@@ -256,6 +284,23 @@ namespace PredprofInterpreter
 
             playerBorder.BeginAnimation(PlayerBorder.XPositionProperty, null);
             playerBorder.BeginAnimation(PlayerBorder.YPositionProperty, null);
+        }
+
+        private void ManageDB_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                DBWindow dBWindow = new()
+                {
+                    Owner = this
+                };
+
+                dBWindow.ShowDialog();
+            }
+            catch (MySqlException)
+            {
+                MessageBox.Show("Cant connect to DataBase");
+            }
         }
     }
 }
