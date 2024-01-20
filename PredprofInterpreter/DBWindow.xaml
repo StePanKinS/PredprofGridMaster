@@ -1,0 +1,94 @@
+﻿<Window x:Class="PredprofInterpreter.DBWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PredprofInterpreter"
+        mc:Ignorable="d"
+        Title="Manage DB"
+        Height="450"
+        Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" MinWidth="300"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*" MinWidth="250"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel
+                Orientation="Horizontal"
+                >
+                <Button
+                    Margin="5"
+                    Content="Load from file"
+                    Click="LoadFromFile"
+                    />
+                <Button
+                    Margin="5"
+                    Content="Load from editor"
+                    Click="LoadFromEditor"
+                    />
+                <Button
+                    Margin="5"
+                    Content="Delete selected"
+                    Click="DeleteSelected"
+                    />
+            </StackPanel>
+
+            <ScrollViewer
+                VerticalScrollBarVisibility="Auto"
+                HorizontalScrollBarVisibility="Disabled"
+                Grid.Row="1"
+                >
+                
+                <StackPanel 
+                    Name="namesList"
+                    Orientation="Vertical"
+                    Margin="5"
+                    />
+                
+            </ScrollViewer>
+
+        </Grid>
+
+        <GridSplitter
+            Grid.Column="1"
+            Width="3"
+            HorizontalAlignment="Center"
+            />
+
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel
+                Orientation="Horizontal"
+                >
+                <Button
+                    Margin="5"
+                    Content="Load to file"
+                    Click="SaveToFile"
+                    />
+                <Button
+                    Margin="5"
+                    Content="Load to editor"
+                    Click="LoadToEditor"
+                    />
+            </StackPanel>
+
+            <TextBlock
+                Name="codeBlock"
+                Margin="10"
+                Grid.Row="1"
+            />
+        </Grid>
+    </Grid>
+</Window>

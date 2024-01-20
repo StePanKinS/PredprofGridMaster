@@ -1,0 +1,503 @@
+2024-01-19T14:11:18.475305Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+2024-01-19T14:11:18.483161Z 0 [System] [MY-013169] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) initializing of server in progress as process 23488
+2024-01-19T14:11:18.522098Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T14:11:19.089960Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T14:11:21.093716Z 6 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: oE*t/mHn,8sj
+2024-01-19T14:11:24.076741Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+2024-01-19T14:11:40.236847Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T14:11:40.372138Z 0 [System] [MY-010116] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 34612
+2024-01-19T14:11:40.406847Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T14:11:40.740275Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T14:11:41.149149Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T14:11:41.149536Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T14:11:41.195115Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T14:11:41.195245Z 0 [System] [MY-010931] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T14:38:10.397647Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T14:38:10.889129Z 0 [System] [MY-010116] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 28956
+2024-01-19T14:38:10.911906Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T14:38:11.630184Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T14:38:11.911466Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T14:38:11.915479Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T14:38:12.034487Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T14:38:12.034870Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T14:38:12.083316Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T14:38:12.083408Z 0 [System] [MY-010931] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T14:38:52.704873Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T14:38:52.815961Z 0 [System] [MY-010116] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 15380
+2024-01-19T14:38:52.837015Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T14:38:53.271896Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T14:38:53.438328Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T14:38:53.442335Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T14:38:53.555733Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T14:38:53.556128Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T14:38:53.601338Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T14:38:53.601410Z 0 [System] [MY-010931] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T14:39:58.384125Z 10 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-19T14:39:58.384798Z 0 [System] [MY-013105] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-19T14:39:59.157273Z 0 [System] [MY-010910] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T14:39:59.160670Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-19T14:40:10.262136Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T14:40:10.363486Z 0 [System] [MY-010116] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 26468
+2024-01-19T14:40:10.389609Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T14:40:10.665900Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T14:40:10.969317Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T14:40:10.969745Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T14:40:11.010691Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T14:40:11.010814Z 0 [System] [MY-010931] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T14:43:00.594557Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-19T14:43:00.595217Z 0 [System] [MY-013105] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-19T14:43:01.683430Z 0 [System] [MY-010910] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T14:43:01.686946Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-19T14:58:19.965563Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T14:58:20.067456Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 31380
+2024-01-19T14:58:20.091786Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T14:58:20.369610Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T14:58:20.700193Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T14:58:20.700586Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T14:58:20.749714Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T14:58:20.749830Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:00:01.430466Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:00:01.553479Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 30152
+2024-01-19T15:00:01.580317Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:00:02.108204Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:00:02.339054Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T15:00:02.346037Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T15:00:02.471424Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:00:02.471945Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:00:02.517103Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:00:02.517184Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:01:18.883535Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:01:19.604479Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 22440
+2024-01-19T15:01:19.634954Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:01:20.158185Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:01:20.377403Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T15:01:20.385010Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T15:01:20.527942Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:01:20.528795Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:01:20.591026Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:01:20.591084Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:02:29.187057Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:02:29.492443Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 3772
+2024-01-19T15:02:29.524607Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:02:30.043034Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:02:30.238637Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T15:02:30.244876Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T15:02:30.365468Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:02:30.365924Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:02:30.405293Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:02:30.405367Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:03:42.961025Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:03:43.060742Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 9012
+2024-01-19T15:03:43.101220Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:03:43.646644Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:03:43.841214Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T15:03:43.849389Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T15:03:43.967184Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:03:43.967642Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:03:44.011413Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:03:44.011468Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:03:53.244369Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-19T15:03:53.246814Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-19T15:03:55.260445Z 0 [Warning] [MY-010909] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Forcing close of thread 8  user: 'root'.
+2024-01-19T15:03:56.113583Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T15:03:56.117388Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-19T15:13:27.510398Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:13:27.621735Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 14632
+2024-01-19T15:13:27.661622Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:13:27.989506Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:13:28.391017Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:13:28.391942Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:13:28.460258Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:13:28.460425Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:13:37.890987Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:13:38.006156Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 23692
+2024-01-19T15:13:38.046224Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:13:38.048795Z 1 [ERROR] [MY-012271] [InnoDB] The innodb_system data file 'ibdata1' must be writable
+2024-01-19T15:13:38.049582Z 1 [ERROR] [MY-012278] [InnoDB] The innodb_system data file 'ibdata1' must be writable
+2024-01-19T15:13:38.050335Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2024-01-19T15:13:38.051374Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2024-01-19T15:13:38.051959Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-01-19T15:13:38.052687Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T15:13:38.054740Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-19T15:15:01.181031Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:15:01.553711Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 31252
+2024-01-19T15:15:01.580616Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:15:02.025149Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:15:02.211495Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T15:15:02.227849Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T15:15:02.356419Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:15:02.356824Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:15:02.395819Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:15:02.395916Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:15:12.752135Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-19T15:15:12.753690Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-19T15:15:14.763635Z 0 [Warning] [MY-010909] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Forcing close of thread 8  user: 'root'.
+2024-01-19T15:15:15.509165Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T15:15:15.512564Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-19T15:20:07.422501Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:20:07.537838Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 17124
+2024-01-19T15:20:07.563542Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:20:07.857996Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:20:08.182801Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:20:08.183225Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:20:08.262736Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:20:08.263036Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:20:47.131244Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-19T15:20:47.132442Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-19T15:20:47.526756Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T15:20:47.531876Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-19T15:24:53.271219Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:24:53.389557Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 32048
+2024-01-19T15:24:53.411475Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:24:53.736831Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:24:54.110998Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:24:54.111488Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:24:54.173052Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:24:54.173182Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:29:51.678433Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:29:52.036207Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 16968
+2024-01-19T15:29:52.070524Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:29:52.643985Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:29:52.837671Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T15:29:52.841564Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T15:29:52.972956Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:29:52.973375Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:29:53.016744Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:29:53.016870Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:30:22.201382Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:30:22.666684Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 9892
+2024-01-19T15:30:22.717756Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:30:23.259657Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:30:23.474303Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T15:30:23.483074Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T15:30:23.622403Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:30:23.623141Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:30:23.662107Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:30:23.662266Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:35:03.410277Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:35:03.560557Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 15040
+2024-01-19T15:35:03.598548Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:35:04.210835Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:35:04.396099Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T15:35:04.401873Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T15:35:04.527610Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:35:04.528152Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:35:04.566184Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:35:04.566254Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:35:22.854025Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:35:23.133627Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 10596
+2024-01-19T15:35:23.179871Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:35:23.182436Z 1 [ERROR] [MY-012271] [InnoDB] The innodb_system data file 'ibdata1' must be writable
+2024-01-19T15:35:23.183270Z 1 [ERROR] [MY-012278] [InnoDB] The innodb_system data file 'ibdata1' must be writable
+2024-01-19T15:35:23.184156Z 1 [ERROR] [MY-010334] [Server] Failed to initialize DD Storage Engine
+2024-01-19T15:35:23.185431Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2024-01-19T15:35:23.186146Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-01-19T15:35:23.187082Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T15:35:23.189690Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-19T15:36:35.560815Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:36:35.803741Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 32372
+2024-01-19T15:36:35.842997Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:36:36.407647Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:36:36.794440Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T15:36:36.798792Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T15:36:36.917533Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:36:36.917924Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:36:36.955759Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:36:36.955868Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:38:38.682452Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:38:38.791973Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 27628
+2024-01-19T15:38:38.819249Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:38:39.336126Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:38:39.535470Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T15:38:39.546328Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T15:38:39.665356Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:38:39.666474Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:38:39.782028Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:38:39.782099Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:42:15.957201Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T15:42:16.357604Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 22660
+2024-01-19T15:42:16.408611Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T15:42:16.927368Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T15:42:17.123617Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T15:42:17.127652Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T15:42:17.207034Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T15:42:17.207422Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T15:42:17.255513Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T15:42:17.255603Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T15:42:17.614017Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-19T15:42:17.614783Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-19T15:42:18.418630Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T15:42:18.422147Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-19T16:42:06.081264Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T16:42:06.989570Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 30504
+2024-01-19T16:42:07.023909Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T16:42:07.392375Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T16:42:07.982563Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T16:42:07.982974Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T16:42:08.036982Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T16:42:08.037048Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T16:43:32.874243Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T16:43:32.994098Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 14844
+2024-01-19T16:43:33.028217Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T16:43:33.541930Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T16:43:33.727939Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-19T16:43:33.735099Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-19T16:43:33.814541Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T16:43:33.814979Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T16:43:33.858369Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T16:43:33.858504Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T16:43:45.296530Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-19T16:43:45.298124Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-19T16:43:46.020616Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T16:43:46.025584Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-19T16:43:53.907076Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T16:43:54.288739Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 25124
+2024-01-19T16:43:54.322266Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T16:43:54.599384Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T16:43:54.918626Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T16:43:54.919061Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T16:43:54.969861Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T16:43:54.969958Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T16:44:01.997348Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-19T16:44:01.999062Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-19T16:44:03.021393Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T16:44:03.025005Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-19T16:44:30.663260Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T16:44:30.859131Z 0 [System] [MY-010116] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 14032
+2024-01-19T16:44:30.893898Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T16:44:31.259002Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T16:44:31.683958Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T16:44:31.684700Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T16:44:31.755983Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T16:44:31.756169Z 0 [System] [MY-010931] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T16:51:34.542426Z 10 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-19T16:51:34.543514Z 0 [System] [MY-013105] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-19T16:51:35.419774Z 0 [System] [MY-010910] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T16:51:35.424674Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-19T16:51:42.026573Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T16:51:42.152088Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 2356
+2024-01-19T16:51:42.178450Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T16:51:42.554248Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T16:51:42.911085Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T16:51:42.911759Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T16:51:42.986199Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T16:51:42.986354Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T16:51:52.656405Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-19T16:51:52.657245Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-19T16:51:55.022008Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T16:51:55.024695Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-19T17:04:10.278215Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-19T17:04:10.620681Z 0 [System] [MY-010116] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 10708
+2024-01-19T17:04:10.654033Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-19T17:04:11.070729Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-19T17:04:11.419536Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-19T17:04:11.420399Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-19T17:04:11.475995Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-19T17:04:11.476176Z 0 [System] [MY-010931] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-19T18:02:45.482169Z 18 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-19T18:02:45.483471Z 0 [System] [MY-013105] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-19T18:02:46.742956Z 0 [System] [MY-010910] [Server] c:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-19T18:02:46.757411Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T10:18:41.573779Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T10:18:42.036197Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 6264
+2024-01-20T10:18:42.236652Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T10:18:42.764111Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T10:18:43.186858Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T10:18:43.187253Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T10:18:43.279961Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T10:18:43.280085Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\MySqlDBTest\MySqlDBTest\bin\Debug\net8.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T12:34:59.812953Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T12:34:59.945194Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 2128
+2024-01-20T12:35:00.076105Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T12:35:00.632921Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T12:35:00.916687Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-20T12:35:00.923132Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-20T12:35:01.092131Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T12:35:01.093054Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T12:35:01.188416Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T12:35:01.188567Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T12:47:51.762268Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T12:47:52.174473Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 30292
+2024-01-20T12:47:52.210795Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T12:47:52.890155Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T12:47:53.240572Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-01-20T12:47:53.251227Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-01-20T12:47:53.446787Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T12:47:53.447457Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T12:47:53.506992Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T12:47:53.507141Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T12:48:13.432912Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T12:48:13.433688Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T12:48:15.447653Z 0 [Warning] [MY-010909] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Forcing close of thread 8  user: 'root'.
+2024-01-20T12:48:16.780223Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T12:48:16.782899Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T12:48:39.011289Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T12:48:39.514757Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 12444
+2024-01-20T12:48:39.539022Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T12:48:39.853614Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T12:48:40.224080Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T12:48:40.224835Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T12:48:40.277540Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T12:48:40.277556Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T12:48:51.562029Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T12:48:51.562760Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T12:48:53.569000Z 0 [Warning] [MY-010909] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Forcing close of thread 8  user: 'root'.
+2024-01-20T12:48:54.410057Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T12:48:54.412506Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T12:57:11.681199Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T12:57:11.833664Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 36632
+2024-01-20T12:57:11.858373Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T12:57:12.179699Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T12:57:12.581408Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T12:57:12.581988Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T12:57:12.640057Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T12:57:12.640224Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T12:57:18.417669Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T12:57:18.418283Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T12:57:20.427077Z 0 [Warning] [MY-010909] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Forcing close of thread 8  user: 'root'.
+2024-01-20T12:57:21.658733Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T12:57:21.660831Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T12:57:39.792042Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T12:57:39.922077Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 16676
+2024-01-20T12:57:39.948807Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T12:57:40.278905Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T12:57:40.667269Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T12:57:40.667807Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T12:57:40.721260Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T12:57:40.721427Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T12:57:50.729692Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T12:57:50.730652Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T12:57:52.750208Z 0 [Warning] [MY-010909] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Forcing close of thread 8  user: 'root'.
+2024-01-20T12:57:53.789895Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T12:57:53.792239Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T12:59:56.500736Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T12:59:56.714325Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 13852
+2024-01-20T12:59:56.756325Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T12:59:57.205080Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T12:59:57.712434Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T12:59:57.713106Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T12:59:57.770710Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T12:59:57.770774Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T13:00:19.312137Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T13:00:19.312812Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T13:00:21.322292Z 0 [Warning] [MY-010909] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Forcing close of thread 8  user: 'root'.
+2024-01-20T13:00:21.930050Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T13:00:21.933438Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T13:05:01.130318Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T13:05:01.295141Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 27920
+2024-01-20T13:05:01.325775Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T13:05:01.619837Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T13:05:01.953930Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T13:05:01.954344Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T13:05:02.002735Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T13:05:02.002850Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T13:05:19.859219Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T13:05:19.860031Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T13:05:22.272282Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T13:05:22.274755Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T13:05:38.815331Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T13:05:39.178407Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 25752
+2024-01-20T13:05:39.215634Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T13:05:39.695295Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T13:05:40.205955Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T13:05:40.206325Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T13:05:40.262869Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T13:05:40.263104Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T13:05:52.908536Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T13:05:52.910279Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T13:05:55.396447Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T13:05:55.398416Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T13:06:04.658057Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T13:06:04.849251Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 28740
+2024-01-20T13:06:04.880134Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T13:06:05.267433Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T13:06:05.718827Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T13:06:05.719415Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T13:06:05.770264Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T13:06:05.770357Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T13:07:25.163320Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T13:07:25.163953Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T13:07:27.530215Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T13:07:27.532290Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T13:07:49.817512Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T13:07:50.217458Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 24040
+2024-01-20T13:07:50.240165Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T13:07:50.584974Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T13:07:50.907115Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T13:07:50.907504Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T13:07:50.956504Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T13:07:50.956589Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T13:08:24.574097Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T13:08:24.575304Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T13:08:27.309412Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T13:08:27.312671Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T13:08:45.877743Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T13:08:46.223677Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 23164
+2024-01-20T13:08:46.257320Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T13:08:46.584564Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T13:08:46.987461Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T13:08:46.987974Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T13:08:47.040764Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T13:08:47.040817Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T13:09:11.438015Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T13:09:11.438592Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T13:09:13.460933Z 0 [Warning] [MY-010909] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Forcing close of thread 8  user: 'root'.
+2024-01-20T13:09:14.259644Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T13:09:14.261705Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T13:09:49.681459Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T13:09:50.045374Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 28864
+2024-01-20T13:09:50.079246Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T13:09:50.402033Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T13:09:50.764433Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T13:09:50.764876Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T13:09:50.811495Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T13:09:50.811592Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T13:10:07.848114Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T13:10:07.848814Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T13:10:10.970110Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T13:10:10.972905Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T13:10:29.055342Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T13:10:29.348843Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 13200
+2024-01-20T13:10:29.375893Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T13:10:29.772614Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T13:10:30.211258Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T13:10:30.211865Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T13:10:30.265023Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T13:10:30.265110Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T13:10:37.376761Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T13:10:37.377545Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T13:10:39.381266Z 0 [Warning] [MY-010909] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Forcing close of thread 8  user: 'root'.
+2024-01-20T13:10:40.311854Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T13:10:40.314455Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T13:12:00.290934Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T13:12:00.454680Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 25732
+2024-01-20T13:12:00.486236Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T13:12:00.896132Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T13:12:01.277498Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T13:12:01.277891Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T13:12:01.329020Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T13:12:01.329093Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T13:12:28.409179Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T13:12:28.409831Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T13:12:31.603053Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T13:12:31.606510Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T13:12:50.447505Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T13:12:50.767911Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 18232
+2024-01-20T13:12:50.790787Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T13:12:51.170034Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T13:12:51.470479Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T13:12:51.470848Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T13:12:51.519815Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T13:12:51.519927Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-01-20T13:13:12.773074Z 9 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.2.0).
+2024-01-20T13:13:12.773953Z 0 [System] [MY-013105] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Normal shutdown.
+2024-01-20T13:13:15.717566Z 0 [System] [MY-010910] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.2.0)  MySQL Community Server - GPL.
+2024-01-20T13:13:15.720414Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-01-20T13:13:24.922176Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-01-20T13:13:25.110395Z 0 [System] [MY-010116] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe (mysqld 8.2.0) starting as process 18140
+2024-01-20T13:13:25.139193Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-01-20T13:13:25.438421Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-01-20T13:13:25.752097Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-01-20T13:13:25.752476Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-01-20T13:13:25.798458Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-01-20T13:13:25.798611Z 0 [System] [MY-010931] [Server] C:\Users\stepa\Code\CSharp\PredprofInterpreter\PredprofInterpreter\bin\Debug\net8.0-windows7.0\mysql\bin\mysqld.exe: ready for connections. Version: '8.2.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
