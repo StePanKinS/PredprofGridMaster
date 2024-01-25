@@ -57,7 +57,7 @@
                     />
                 <Separator />
                 <MenuItem
-                    Header="Manage DB"
+                    Header="DB Save/Load"
                     Click="ManageDB_Click"
                     />
                 <MenuItem
