@@ -81,12 +81,16 @@ namespace PredprofInterpreter
         private void SaveToFile(object sender, RoutedEventArgs e)
         {
             SaveFileDialog sfd = new();
-            sfd.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+            sfd.Filter = "txt files (*.txt)|*.txt";
 
             if (sfd.ShowDialog() == true)
             {
-                using StreamWriter sw = new(sfd.FileName);
-                sw.Write(codeBlock.Text);
+                try
+                {
+                    using StreamWriter sw = new(sfd.FileName);
+                    sw.Write(codeBlock.Text);
+                }
+                catch (Exception) { }
             }
         }
 
@@ -124,14 +128,18 @@ namespace PredprofInterpreter
         private void LoadFromFile(object sender, RoutedEventArgs e)
         {
             OpenFileDialog ofd = new();
-            ofd.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+            ofd.Filter = "txt files (*.txt)|*.txt";
 
             if(ofd.ShowDialog() == true)
             {
-                using StreamReader sr = new(ofd.FileName);
-                string code = sr.ReadToEnd();
-                
-                SetProgram(ofd.SafeFileName, code);
+                try
+                {
+                    using StreamReader sr = new(ofd.FileName);
+                    string code = sr.ReadToEnd();
+
+                    SetProgram(ofd.SafeFileName, code);
+                }
+                catch (Exception) { }
             }
         }
 

@@ -31,6 +31,9 @@
         public void Start()
         {
             isAlive = true;
+
+            setUpProcs();
+
             new Thread(() =>
             {
                 try
@@ -113,6 +116,44 @@
             return isAlive == true;
         }
 
+        private void setUpProcs()
+        {
+            int pos = 0;
+            while (true)
+            {
+                string? line = readLine(pos);
+
+                if (line == null) 
+                    return;
+
+
+                string[] words = line.Trim().Split();
+                cutWords(ref words);
+
+                if(words.Length == 0 || words[0] != "procedure")
+                {
+                    moveCursor(ref pos);
+                    continue;
+                }
+
+
+                testCount2(words, pos);
+
+                testName(words[1], pos);
+
+                if (procs.ContainsKey(words[1]))
+                {
+                    throw new NameAlreadyExsists(getLine(pos));
+                }
+
+                moveCursor(ref pos);
+
+                procs.Add(words[1], pos);
+
+                findClose(ref pos, BlockType.Procedure);
+            }
+        }
+
         private void run(int pos, int depth, BlockType blockType)
         {
             if (depth > maxDepth)
@@ -135,13 +176,14 @@
                 }
 
                 int startPos = pos;
-                string? line = readLine(ref pos);
+                string? line = readLine(pos);
+                moveCursor(ref pos);
 
                 if (line == null)
                 {
                     if (blockType != BlockType.Main)
                     {
-                        throw new IncorrectBlockClose(getLine(startPos), blockType, BlockType.Main);
+                        throw new IncorrectBlockClose(getLine(pos), blockType, BlockType.Main);
                     }
                     return;
                 }
@@ -154,6 +196,7 @@
                 }
 
                 string[] words = line.Split();
+                cutWords(ref words);
 
                 switch (words[0].ToLower())
                 {
@@ -330,19 +373,10 @@
                         }
                     case "procedure":
                         {
-                            int p = pos;
+                            if (blockType != BlockType.Main)
+                                throw new WrongPlaceForProc(getLine(startPos));
+
                             findClose(ref pos, BlockType.Procedure);
-
-                            testCount2(words, startPos);
-
-                            testName(words[1], getLine(startPos));
-
-                            if (procs.ContainsKey(words[1]))
-                            {
-                                throw new NameAlreadyExsists(getLine(startPos));
-                            }
-
-                            procs.Add(words[1], p);
 
                             break;
                         }
@@ -383,18 +417,47 @@
             }
         }
 
+        private void cutWords(ref string[] words)
+        {
+            for (int i = 0; i < words.Length; i++)
+            {
+                while (true)
+                {
+                    if (i >= words.Length || words[i] != "")
+                        break;
+
+                    words = removeAt(words, i);
+                }
+            }
+        }
+
+        private string[] removeAt(string[] arr, int index)
+        {
+            string[] res = new string[arr.Length - 1];
+
+            for(int i = 0; i < index; i++)
+            {
+                res[i] = arr[i];
+            }
+            for(int i = index; i < res.Length; i++)
+            {
+                res[i] = arr[i + 1];
+            }
+
+            return res;
+        }
+
         private void findClose(ref int pos, BlockType searchFor)
         {
-            List<(BlockType type, int pos)> ints = new List<(BlockType, int)>();
+            List<(BlockType type, int pos)> ints = [];
             string? line;
 
             while (true)
             {
-                int p = pos;
-                line = readLine(ref pos);
+                line = readLine(pos);
                 if (line == null)
                 {
-                    throw new IncorrectBlockClose(getLine(p), searchFor, BlockType.Main);
+                    throw new IncorrectBlockClose(getLine(pos), searchFor, BlockType.Main);
                 }
 
                 string[] words = line.Trim().ToLower().Split();
@@ -403,19 +466,19 @@
                 {
                     case "ifblock":
                         {
-                            ints.Add((BlockType.If, p));
+                            ints.Add((BlockType.If, pos));
 
                             break;
                         }
                     case "repeat":
                         {
-                            ints.Add((BlockType.Repeat, p));
+                            ints.Add((BlockType.Repeat, pos));
 
                             break;
                         }
                     case "procedure":
                         {
-                            ints.Add((BlockType.Procedure, p));
+                            ints.Add((BlockType.Procedure, pos));
 
                             break;
                         }
@@ -425,13 +488,16 @@
                             {
                                 if (searchFor == BlockType.If)
                                 {
+                                    moveCursor(ref pos);
                                     return;
                                 }
+
+                                throw new IncorrectBlockClose(getLine(pos), BlockType.If, searchFor);
                             }
 
                             if (ints[ints.Count - 1].type != BlockType.If)
                             {
-                                throw new IncorrectBlockClose(getLine(p), BlockType.If, ints[ints.Count - 1].type);
+                                throw new IncorrectBlockClose(getLine(pos), BlockType.If, ints[ints.Count - 1].type);
                             }
 
                             ints.RemoveAt(ints.Count - 1);
@@ -444,13 +510,16 @@
                             {
                                 if (searchFor == BlockType.Repeat)
                                 {
+                                    moveCursor(ref pos);
                                     return;
                                 }
+
+                                throw new IncorrectBlockClose(getLine(pos), BlockType.Repeat, searchFor);
                             }
 
                             if (ints[ints.Count - 1].type != BlockType.Repeat)
                             {
-                                throw new IncorrectBlockClose(getLine(p), BlockType.Repeat, ints[ints.Count - 1].type);
+                                throw new IncorrectBlockClose(getLine(pos), BlockType.Repeat, ints[ints.Count - 1].type);
                             }
 
                             ints.RemoveAt(ints.Count - 1);
@@ -463,13 +532,16 @@
                             {
                                 if (searchFor == BlockType.Procedure)
                                 {
+                                    moveCursor(ref pos);
                                     return;
                                 }
+
+                                throw new IncorrectBlockClose(getLine(pos), BlockType.Procedure, searchFor);
                             }
 
                             if (ints[ints.Count - 1].type != BlockType.Procedure)
                             {
-                                throw new IncorrectBlockClose(getLine(p), BlockType.Procedure, ints[ints.Count - 1].type);
+                                throw new IncorrectBlockClose(getLine(pos), BlockType.Procedure, ints[ints.Count - 1].type);
                             }
 
                             ints.RemoveAt(ints.Count - 1);
@@ -477,6 +549,8 @@
                             break;
                         }
                 }
+
+                moveCursor(ref pos);
             }
         }
 
@@ -518,6 +592,7 @@
 
         private void testCount2(string[] words, int position)
         {
+
             if (words.Length != 2)
             {
                 throw new IncorrectParametrsNumber(getLine(position));
@@ -535,7 +610,7 @@
             }
         }
         
-        private string? readLine(ref int pos)
+        private string? readLine(int pos)
         {
             string line = "";
             char c;
@@ -546,11 +621,6 @@
                 c = program[i++];
                 if(c == '\n' || c == '\r')
                 {
-                    pos = i + 1;
-
-                    if (c == '\r' && pos < program.Length && program[pos] == '\n')
-                        pos++;
-
                     return line;
                 }
                 line += c;
@@ -558,11 +628,23 @@
 
             if(i > pos)
             {
-                pos = i;
                 return line;
             }
 
             return null;
+        }
+
+        private void moveCursor(ref int pos)
+        {
+            while (pos < program.Length)
+            {
+                char c = program[pos++];
+
+                if(c == '\n')
+                {
+                    return;
+                }
+            }
         }
     }
 }

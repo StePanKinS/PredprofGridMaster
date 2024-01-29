@@ -55,13 +55,27 @@
                     Header="Save as" 
                     Click="Menu_FileSaveAs"
                     />
+                
                 <Separator />
+                
+                <MenuItem
+                    Header="Save result"
+                    Click="Result_Save"
+                   />
+                <MenuItem
+                    Header="Load result"
+                    Click="Result_Load"
+                    />
+                
+                <Separator/>
+                
                 <MenuItem
                     Header="DB Save/Load"
                     Click="ManageDB_Click"
                     />
                 <MenuItem
                     Header="Exit" 
+                    Click="Button_Exit"
                     />
             </MenuItem>
             <!--<MenuItem Header="DataBase">
