@@ -2,7 +2,9 @@
 {
     public class InvalidName : CodeException
     {
-        public InvalidName(int line, string? message = null)
-            : base(line, message) { }
+        public InvalidName(
+            int line,
+            string? message = "Неправильное имя"
+            ) : base(line, message) { }
     }
 }

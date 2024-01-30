@@ -2,7 +2,9 @@
 {
     public class ValueOutOfRange : CodeException
     {
-        public ValueOutOfRange(int line, string? message = null)
-            : base(line, message) { }
+        public ValueOutOfRange(
+            int line, 
+            string? message = "Значение вне допустимого диапазона"
+            ) : base(line, message) { }
     }
 }

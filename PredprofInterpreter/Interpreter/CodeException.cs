@@ -1,13 +1,7 @@
 ﻿namespace GridMasterPredprof
 {
-    public class CodeException : Exception
+    public class CodeException(int line, string? message = null) : Exception(message)
     {
-        public int line { get; }
-
-        public CodeException(int line, string? message = null)
-            : base(message)
-        {
-            this.line = line;
-        }
+        public int line { get; } = line;
     }
 }

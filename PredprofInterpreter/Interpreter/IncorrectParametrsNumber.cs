@@ -2,7 +2,9 @@
 {
     public class IncorrectParametrsNumber : CodeException
     {
-        public IncorrectParametrsNumber(int line, string? message = null)
-            : base(line, message) { }
+        public IncorrectParametrsNumber(
+            int line,
+            string? message = "Неправильное количество параметров"
+            ) : base(line, message) { }
     }
 }

@@ -2,7 +2,9 @@
 {
     public class InvalidSyntax : CodeException
     {
-        public InvalidSyntax(int line, string? message = null)
-            : base(line, message) { }
+        public InvalidSyntax(
+            int line,
+            string? message = "Неправильная команда"
+            ) : base(line, message) { }
     }
 }

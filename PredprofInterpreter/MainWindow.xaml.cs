@@ -246,7 +246,7 @@ namespace PredprofInterpreter
 
                 
 
-                errorTextBlock.Text = exc.GetType().Name;
+                errorTextBlock.Text = exc.Message;
 
                 textEditor.SelectionBrush = new SolidColorBrush(Colors.Red);
                 textEditor.Select(start, length);

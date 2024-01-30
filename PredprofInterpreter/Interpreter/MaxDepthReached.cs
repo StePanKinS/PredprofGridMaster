@@ -2,7 +2,9 @@
 {
     public class MaxDepthReached : CodeException
     {
-        public MaxDepthReached(int line, string? message = null)
-            : base(line, message) { }
+        public MaxDepthReached(
+            int line,
+            string? message = "Превышена максимальная вложенность"
+            ) : base(line, message) { }
     }
 }
