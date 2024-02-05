@@ -1,7 +1,6 @@
 ﻿using GridMasterPredprof;
 using Microsoft.Win32;
 using System.IO;
-using System.Security.Cryptography;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
