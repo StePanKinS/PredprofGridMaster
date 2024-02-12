@@ -19,3 +19,4 @@
 
 ## Видео
 https://youtu.be/T-1YLc1zWe0
+https://drive.google.com/file/d/12d_P_WQESnDfmho1kFXVCB0a1XX2PKrm/view?usp=drive_link
