@@ -16,3 +16,6 @@
 1. CodeException.cs - Базовый тип для всех ошибок при интерпретации програмы
 1. Остальное в папке Interpreter - Различные типы ошибок
 1. Папка mysql - все файлы базы данных
+
+## Видео
+https://drive.google.com/file/d/12d_P_WQESnDfmho1kFXVCB0a1XX2PKrm/view?usp=sharing
