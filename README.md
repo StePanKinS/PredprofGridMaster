@@ -18,4 +18,4 @@
 1. Папка mysql - все файлы базы данных
 
 ## Видео
-https://drive.google.com/file/d/12d_P_WQESnDfmho1kFXVCB0a1XX2PKrm/view?usp=sharing
+https://youtu.be/T-1YLc1zWe0
